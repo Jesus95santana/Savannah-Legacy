@@ -1,11 +1,11 @@
 <header>
     <div class="headerContainer">
-        <figure class="topHeadImg"><img src="" alt=""></figure>
-        <div class="allLogoContainer">
-            <figure class="savLogo"><img src="" alt=""></figure>
-            <figure class="savBanner"><img src="" alt=""></figure>
-            <figure>
-                <svg>Facebook</svg>
+        <figure class="topHeadImg"><img src="./img/headBanner.jpg" alt="Header Banner"></figure>
+        <div class="allLogoContainer flex justify-between items-center flex-wrap max-w-6xl border m-auto" >
+            <figure class="savLogo max-w-[180px] max-h-xs border"><img src="./img/savlogo.jpg" alt="Savannah Logo"></figure>
+            <figure class="savBanner border"><img src="./img/savBanner.jpg" alt="Savannah Banner"></figure>
+            <figure class="border">
+                <p>facebookfdgsdfgsdfgsdfgfdsgfdsfdsgfdsg</p>
             </figure>
         </div>
         <nav>

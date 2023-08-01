@@ -4,12 +4,12 @@
         <div class="allLogoContainer flex justify-between items-center flex-wrap max-w-6xl border m-auto" >
             <figure class="savLogo max-w-[180px] max-h-xs border"><img src="./img/savlogo.jpg" alt="Savannah Logo"></figure>
             <figure class="savBanner border"><img src="./img/savBanner.jpg" alt="Savannah Banner"></figure>
-            <figure class="border">
-                <p>facebookfdgsdfgsdfgsdfgfdsgfdsfdsgfdsg</p>
+            <figure class="border max-w-[100px]">
+                <img src="./img/facebook.png" alt="facebook Icon">
             </figure>
         </div>
         <nav>
-            <ul>
+            <ul class="flex flex-wrap justify-center m-auto max-w-4xl border">
                 <li><a href="">ABOUT THE ACADEMY</a></li>
                 <li><a href="">ADMISSIONS</a></li>
                 <li><a href="">ACADEMICS</a></li>

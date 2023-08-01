@@ -1,0 +1,7 @@
+@use "../" as *;
+.homePage {
+	.homePageContainer {
+		background-color: yellow;
+		@include bd(green);
+	}
+}

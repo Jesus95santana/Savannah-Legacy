@@ -1,0 +1,7 @@
+@use "../" as *;
+.footer {
+	.footerContainer {
+		background-color: blue;
+		@include bd(purple);
+	}
+}

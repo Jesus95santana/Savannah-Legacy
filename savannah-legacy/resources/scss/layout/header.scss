@@ -1,0 +1,5 @@
+@use "../" as *;
+.header {
+	background-color: red;
+	@include bd(orange);
+}

@@ -1,13 +1,22 @@
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-    <!-- Styles -->
-    @vite('resources/css/app.css')
-</head>
+<header>
+    <div class="headerContainer">
+        <figure class="topHeadImg"><img src="" alt=""></figure>
+        <div class="allLogoContainer">
+            <figure class="savLogo"><img src="" alt=""></figure>
+            <figure class="savBanner"><img src="" alt=""></figure>
+            <figure>
+                <svg>Facebook</svg>
+            </figure>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">ABOUT THE ACADEMY</a></li>
+                <li><a href="">ADMISSIONS</a></li>
+                <li><a href="">ACADEMICS</a></li>
+                <li><a href="">CAMPUS LIFE</a></li>
+                <li><a href="">SUPPORT SLA</a></li>
+                <li><a href="">NEWS & EVENTS</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul></nav>
+    </div>
+</header>

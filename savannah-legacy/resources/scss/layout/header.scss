@@ -1,5 +1,19 @@
 @use "../" as *;
-.header {
-	background-color: red;
-	@include bd(orange);
+header {
+    .headerContainer {
+        .headerMenu {
+            li {
+                color: $green;
+                padding: 10px;
+                font: {
+                    weight: 520;
+                    size: 16.5px;
+                }
+                &:hover {
+                    background-color: $orange;
+                    color: white;
+                }
+            }
+        }
+    }
 }

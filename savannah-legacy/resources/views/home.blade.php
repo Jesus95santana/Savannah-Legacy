@@ -34,15 +34,28 @@
             <div class="card2">
                 <figure class="cardImg"><img src="/img/apply.jpg" alt="Visit"></figure>
                 <h3>APPLY</h3>
-                <p></p>
-                <button></button>
+                <p>
+                    We are so excited that you are taking the first step toward a
+                    SLA education and joining a community that is dedicated to seeing
+                    students flourish and fulfill their God-given potential. Please call
+                    (912) 651-9662 for details on the application process during this transition or
+                    click APPLY to be directed to our Applications page.
+                </p>
+                <button>LEARN MORE</button>
             </div>
             <div class="card3">
                 <figure class="cardImg"><img src="/img/donate.jpg" alt="Visit"></figure>
                 <h3>DONATE</h3>
-                <p></p>
-                <button></button>
+                <p>
+                    Our Annual Fund campaign specifically and strategically supports
+                    three main areas: student life and well-being, academic enrichment,
+                    and professional development for faculty. Your gift is a blessing to
+                    our school and will be added to our Annual Campaign Fund or current fundraiser
+                    unless otherwise specified.
+                </p>
+                <button>LEARN MORE</button>
             </div>
         </section>
+        <figure class="separator scale-x-[-1]"><img src="/img/headBanner.jpg" alt="Separator"></figure>
     </div>
 </x-layout>

@@ -1,22 +1,25 @@
 <x-layout>
     <div class="homeContainer">
-        <figure class="heroImg"><img src="/img/class.jpg" alt="Classroom"></figure>
-        <section class="welcomeBanner">
-            <div class="leftSection">
-                <h3>Welcome to the Savannah Legacy Academy</h3>
-                <p>
-                    We hope that you'll spend a few moments browsing the pages on
-                    this site, where you will be able to learn much about our school community
-                    and what sets us apart from other academic institutions.
-                </p>
-                <p>
-                    We are grateful for your interest and it shows your recognition that a
-                    challenging, Bible-based education is one of the greates gifts that you can
-                    give your child.
-                </p>
+        <figure class="heroImg bg-[#2abab0] py-3"><img src="/img/class.jpg" alt="Classroom"></figure>
+        <section class="welcomeBanner bg-white py-4">
+            <div class="leftSection bg-[#afa79c] text-white text-right max-w-4xl border  py-24">
+                <div class="leftContainer max-w-2xl border pl-6">
+                    <h2 class="text-4xl">Welcome to the Savannah Legacy Academy</h2>
+                    <p>
+                        We hope that you'll spend a few moments browsing the pages on
+                        this site, where you will be able to learn much about our school community
+                        and what sets us apart from other academic institutions.
+                    </p>
+                    <br>
+                    <p>
+                        We are grateful for your interest and it shows your recognition that a
+                        challenging, Bible-based education is onwe of the greates gifts that you can
+                        give your child.
+                    </p>
+                </div>
             </div>
-            <div class="rightSection">
-                <figure class="schoolBuilding"><img src="schoolBuilding.jpg" alt="School Building"></figure>
+            <div class="rightSection border">
+                <figure class="schoolBuilding"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
             </div>
         </section>
         <section class="learnCards">

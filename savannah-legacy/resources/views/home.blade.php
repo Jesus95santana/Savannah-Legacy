@@ -1,16 +1,17 @@
 <x-layout>
     <div class="homeContainer">
         <figure class="heroImg bg-[#2abab0] py-3"><img src="/img/class.jpg" alt="Classroom"></figure>
-        <section class="welcomeBanner bg-white py-4">
-            <div class="leftSection bg-[#afa79c] text-white text-right max-w-4xl border  py-24">
-                <div class="leftContainer max-w-2xl border pl-6">
-                    <h2 class="text-4xl">Welcome to the Savannah Legacy Academy</h2>
+        <section class="welcomeBanner bg-white py-4 relative">
+            <div class="leftSection bg-[#afa79c] text-white text-right max-w-[53rem] border py-14">
+                <div class="leftContainer max-w-xl border m-auto p-2">
+                    <h2 class="text-4xl font-bold font2">Welcome to the </br> Savannah Legacy Academy</h2>
+                    </br>
                     <p>
                         We hope that you'll spend a few moments browsing the pages on
                         this site, where you will be able to learn much about our school community
                         and what sets us apart from other academic institutions.
                     </p>
-                    <br>
+                    </br>
                     <p>
                         We are grateful for your interest and it shows your recognition that a
                         challenging, Bible-based education is onwe of the greates gifts that you can
@@ -18,8 +19,8 @@
                     </p>
                 </div>
             </div>
-            <div class="rightSection border">
-                <figure class="schoolBuilding"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
+            <div class="rightSection border-red-600 border">
+                <figure class="schoolBuilding max-w-xs relative right-0 top-0"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
             </div>
         </section>
         <section class="learnCards">

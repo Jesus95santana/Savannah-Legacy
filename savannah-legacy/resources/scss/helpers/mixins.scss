@@ -13,3 +13,6 @@
 		@content;
 	}
 }
+@mixin centerAbsolute {
+    transform: translate(-50%,-50%);
+}

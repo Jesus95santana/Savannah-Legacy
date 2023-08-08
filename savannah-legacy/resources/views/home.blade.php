@@ -23,17 +23,17 @@
                 <figure class="schoolBuilding max-w-xl"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
             </div>
         </section>
-        <section class="learnCards flex">
-            <div class="card1">
+        <section class="learnCards flex border border-red-600 max-w-[1200] m-auto">
+            <div class="card1 ">
                 <figure class="cardImg"><img src="/img/visit.jpg" alt="Visit"></figure>
-                <h3>VISIT</h3>
+                <h3 >VISIT</h3>
                 <p>
                     Although our campus is currently closed, the SLA Admissions
                     Office is open (virtually) as we continue to accept applications
                     for the 2020-2021 school year. Call our Admission Office at 912-651-9662 or
                     email info@savlegacyacademy.com to schedule a virtual tour.
                 </p>
-                <button>LEARN MORE</button>
+                <button >LEARN MORE</button>
             </div>
             <div class="card2">
                 <figure class="cardImg"><img src="/img/apply.jpg" alt="Visit"></figure>

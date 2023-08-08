@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', function() {
     return view('home');
-});
+})->name('home');
+Route::get('/about-the-academy', function () {
+    return view('about-the-academy');
+})->name('aboutAcademy');
 Route::get('/error', function () {
     return view('welcome');
 });

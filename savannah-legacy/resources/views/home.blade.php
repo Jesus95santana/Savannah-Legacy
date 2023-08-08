@@ -1,7 +1,7 @@
 <x-layout>
     <div class="homeContainer">
         <figure class="heroImg bg-[#2abab0] py-3"><img src="/img/class.jpg" alt="Classroom"></figure>
-        <section class="welcomeBanner bg-white py-4 relative grid grid-cols-3 border-red-600 border">
+        <section class="welcomeBanner bg-white py-4 relative grid grid-cols-3">
             <div class="leftSection bg-[#afa79c] text-white text-right py-14 col-span-2">
                 <div class="leftContainer max-w-xl p-2 m-auto relative right-20">
                     <h2 class="text-4xl font-bold font2">Welcome to the </br> Savannah Legacy Academy</h2>
@@ -19,11 +19,11 @@
                     </p>
                 </div>
             </div>
-            <div class="rightSection absolute centerAbs top-[50%] left-[68%]  border-red-600 border ">
+            <div class="rightSection absolute centerAbs top-[50%] left-[68%] ">
                 <figure class="schoolBuilding max-w-xl"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
             </div>
         </section>
-        <section class="learnCards">
+        <section class="learnCards flex">
             <div class="card1">
                 <figure class="cardImg"><img src="/img/visit.jpg" alt="Visit"></figure>
                 <h3>VISIT</h3>

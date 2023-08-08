@@ -23,7 +23,7 @@
                 <figure class="schoolBuilding max-w-xl"><img src="/img/schoolBuilding.jpg" alt="School Building"></figure>
             </div>
         </section>
-        <section class="learnCards flex border border-red-600 max-w-[1200] m-auto">
+        <section class="learnCards flex max-w-[1200] m-auto">
             <div class="card1 ">
                 <figure class="cardImg"><img src="/img/visit.jpg" alt="Visit"></figure>
                 <h3 >VISIT</h3>
@@ -61,5 +61,8 @@
             </div>
         </section>
         <figure class="separator scale-x-[-1]"><img src="/img/headBanner.jpg" alt="Separator"></figure>
+        <div class="text-center p-20">
+            <h3 class="text-4xl font-bold text-orange-400">UPCOMING EVENTS</h3>
+        </div>
     </div>
 </x-layout>

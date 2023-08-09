@@ -1,0 +1,11 @@
+@use "../" as *;
+.aboutAcademyContainer {
+    .divider {
+        background-color: $green;
+        height: 10px;
+        width: 100%;
+    }
+    .contentHeader {
+        @include contentHeader;
+    }
+}

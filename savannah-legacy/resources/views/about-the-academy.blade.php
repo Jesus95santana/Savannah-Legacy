@@ -20,6 +20,8 @@
                 </div>
             </article>
         </section>
-        <section class="right"></section>
+        <section class="right">
+            <x-about-side-bar></x-about-side-bar>
+        </section>
     </div>
 </x-layout>

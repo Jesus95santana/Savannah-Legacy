@@ -23,7 +23,7 @@
             </article>
         </section>
 
-        <section class="right border border-red-600 min-w-[290px]">
+        <section class="right min-w-[350px]">
             <x-aboutSideNav></x-aboutSideNav>
         </section>
 

@@ -1,0 +1,21 @@
+@use "../" as *;
+.sideContainer {
+    background-color: $orange;
+    .sidePages {
+        list-style: none;
+        li  {
+            a {
+                padding: 10px;
+                color: white;
+                display: block;
+                font: {
+                    family: $font1;
+                    weight: 600;
+                }
+            }
+            &:hover {
+                background-color: $green2;
+            }
+        }
+    }
+}

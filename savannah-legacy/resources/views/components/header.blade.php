@@ -13,7 +13,7 @@
         </div>
         <nav>
             <ul class="headerMenu flex flex-wrap justify-center m-auto max-w-5xl">
-                <li><a href={{route('aboutAcademy')}}>ABOUT THE ACADEMY</a></li>
+                <li><a href={{route('aboutPage')}}>ABOUT THE ACADEMY</a></li>
                 <li><a href="">ADMISSIONS</a></li>
                 <li><a href="">ACADEMICS</a></li>
                 <li><a href="">CAMPUS LIFE</a></li>

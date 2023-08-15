@@ -17,7 +17,7 @@ Route::get('/', function() {
 })->name('home');
 Route::get('/about-the-academy', function () {
     return view('about-the-academy');
-})->name('aboutAcademy');
+})->name('aboutPage');
 Route::get('/error', function () {
     return view('welcome');
 });

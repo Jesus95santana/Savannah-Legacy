@@ -24,7 +24,7 @@
         </section>
 
         <section class="right border border-red-600 min-w-[290px]">
-            <x-about-side-bar></x-about-side-bar>
+            <x-aboutSideNav></x-aboutSideNav>
         </section>
 
     </div>

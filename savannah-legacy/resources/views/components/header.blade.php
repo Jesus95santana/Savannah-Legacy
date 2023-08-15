@@ -1,6 +1,6 @@
 <header>
     <div class="headerContainer">
-        <figure class="topHeadImg"><img src="./img/headBanner.jpg" alt="Header Banner"></figure>
+        <figure class="topHeadImg"><img class="w-full" src="./img/headBanner.jpg" alt="Header Banner"></figure>
         <div class="allLogoContainer flex justify-between items-center flex-wrap max-w-6xl  m-auto" >
             <figure class="savLogo max-w-[180px] max-h-xs "><img src="./img/savlogo.jpg" alt="Savannah Logo"></figure>
             <figure class="savBanner ">
@@ -21,5 +21,6 @@
                 <li><a href="">NEWS & EVENTS</a></li>
                 <li><a href="">CONTACT US</a></li>
             </ul></nav>
+        <div class="divider"></div>
     </div>
 </header>

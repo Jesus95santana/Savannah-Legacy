@@ -1,0 +1,6 @@
+@use "../" as *;
+.aboutAcademyContainer {
+    .contentHeader {
+        @include contentHeader;
+    }
+}

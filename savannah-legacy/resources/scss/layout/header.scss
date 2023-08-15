@@ -15,5 +15,10 @@ header {
                 }
             }
         }
+        .divider {
+            background-color: $green;
+            height: 10px;
+            width: 100%;
+        }
     }
 }

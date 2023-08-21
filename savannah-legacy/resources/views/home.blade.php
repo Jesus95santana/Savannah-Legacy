@@ -60,7 +60,7 @@
                 <button>LEARN MORE</button>
             </div>
         </section>
-        <figure class="separator scale-x-[-1]"><img src="/img/headBanner.jpg" alt="Separator"></figure>
+        <figure class="separator scale-x-[-1]"><img class="w-full" src="/img/headBanner.jpg" alt="Separator"></figure>
         <div class="text-center p-20">
             <h3 class="text-4xl font-bold text-orange-400">UPCOMING EVENTS</h3>
         </div>

@@ -1,6 +1,6 @@
 <x-layout>
     <div class="homeContainer">
-        <figure class="heroImg bg-[#2abab0] py-3"><img src="/img/class.jpg" alt="Classroom"></figure>
+        <figure class="heroImg bg-[#2abab0] py-3"><img class="w-full" src="/img/class.jpg" alt="Classroom"></figure>
         <section class="welcomeBanner bg-white py-4 relative grid grid-cols-3">
             <div class="leftSection bg-[#afa79c] text-white text-right py-14 col-span-2">
                 <div class="leftContainer max-w-xl p-2 m-auto relative right-20">

@@ -13,7 +13,14 @@
         </div>
         <nav>
             <ul class="headerMenu flex flex-wrap justify-center m-auto max-w-5xl">
-                <li><a href={{route('aboutPage')}}>ABOUT THE ACADEMY</a></li>
+                <li x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false">
+                    <a @mouseenter="isOpen = true" @mouseleave="isOpen = false" href={{route('aboutPage')}}>ABOUT THE ACADEMY</a>
+                    <ul x-show="isOpen" class="dropDown">
+                        <li><a href="">FACULTY & STAFF</a></li>
+                        <li><a href="">CALENDAR</a></li>
+                        <li><a href="">EMPLOYMENT</a></li>
+                    </ul>
+                </li>
                 <li><a href="">ADMISSIONS</a></li>
                 <li><a href="">ACADEMICS</a></li>
                 <li><a href="">CAMPUS LIFE</a></li>
@@ -22,5 +29,13 @@
                 <li><a href="">CONTACT US</a></li>
             </ul></nav>
         <div class="divider"></div>
+    </div>
+    <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false">
+        <button @mouseenter="isOpen = true" @mouseleave="isOpen = false">Hover Me</button>
+        <ul x-show="isOpen" class="dropdown">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+        </ul>
     </div>
 </header>

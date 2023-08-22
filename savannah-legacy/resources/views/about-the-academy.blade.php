@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="aboutAcademyContainer flex max-w-[1200px] mx-auto my-10">
+    <div class="aboutAcademyContainer flex max-w-[1200px] mx-auto mt-4 mb-10">
         <section class="left">
             <h2 class="contentHeader">About The Savannah Legacy Academy</h2>
             <article class="flex">

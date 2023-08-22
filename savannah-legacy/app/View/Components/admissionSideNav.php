@@ -21,6 +21,6 @@ class admissionSideNav extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.admission-side-nav');
+        return view('components.admissionSideNav');
     }
 }

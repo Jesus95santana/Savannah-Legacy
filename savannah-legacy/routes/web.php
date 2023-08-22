@@ -15,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return view('home');
 })->name('home');
+
 Route::get('/about-the-academy', function () {
     return view('about-the-academy');
 })->name('aboutPage');
+
+Route::get('/faculty-and-staff', function () {
+    return view('faculty-and-staff');
+})->name('faculty');
+
 Route::get('/error', function () {
     return view('welcome');
 });

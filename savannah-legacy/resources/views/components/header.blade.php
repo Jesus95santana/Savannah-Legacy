@@ -16,7 +16,7 @@
                 <li x-data="{open: false}" @mouseenter = "open = !open" @mouseleave = "open = !open" class="relative">
                     <a href={{route('aboutPage')}}>ABOUT THE ACADEMY</a>
                     <ul x-show="open" class="dropDown">
-                        <li><a href="">FACULTY & STAFF</a></li>
+                        <li><a href={{route('faculty')}}>FACULTY & STAFF</a></li>
                         <li><a href="">CALENDAR</a></li>
                         <li><a href="">EMPLOYMENT</a></li>
                     </ul>

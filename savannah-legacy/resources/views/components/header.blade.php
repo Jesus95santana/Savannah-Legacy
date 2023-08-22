@@ -21,7 +21,7 @@
                         <li><a href="">EMPLOYMENT</a></li>
                     </ul>
                 </li>
-                <li><a href="">ADMISSIONS</a></li>
+                <li><a href={{route('admissions')}}>ADMISSIONS</a></li>
                 <li><a href="">ACADEMICS</a></li>
                 <li><a href="">CAMPUS LIFE</a></li>
                 <li><a href="">SUPPORT SLA</a></li>

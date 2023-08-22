@@ -24,6 +24,10 @@ Route::get('/faculty-and-staff', function () {
     return view('faculty-and-staff');
 })->name('faculty');
 
+Route::get('/admissions', function () {
+    return view('admissions');
+})->name('admissions');
+
 Route::get('/error', function () {
     return view('welcome');
 });

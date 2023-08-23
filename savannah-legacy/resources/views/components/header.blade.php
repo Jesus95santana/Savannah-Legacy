@@ -3,12 +3,12 @@
         <figure class="topHeadImg"><img class="w-full" src="./img/headBanner.jpg" alt="Header Banner"></figure>
         <div class="allLogoContainer flex justify-between items-center flex-wrap max-w-6xl  m-auto" >
             <figure class="savLogo max-w-[180px] max-h-xs "><img src="./img/savlogo.jpg" alt="Savannah Logo"></figure>
-            <figure class="savBanner ">
+            <figure class="savBanner py-6">
                 <a href={{route('home')}}>
                     <img src="./img/savBanner.jpg" alt="Savannah Banner">
                 </a></figure>
-            <figure class=" max-w-[100px]">
-                <img src="./img/facebook.png" alt="facebook Icon">
+            <figure class=" max-w-[50px]">
+                <img src="./img/SLA-Facebook-Icon.svg" alt="facebook Icon">
             </figure>
         </div>
         <nav>

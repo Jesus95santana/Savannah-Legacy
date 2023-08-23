@@ -1,6 +1,6 @@
 <x-layout>
-    <div class="aboutAcademyContainer flex max-w-[1200px] mx-auto mt-4 mb-10">
-        <section class="left">
+    <div class="aboutAcademyContainer flex max-w-[1200px] mx-auto mt-4 mb-10 flex-wrap justify-center">
+        <section class="left max-w-2xl">
             <h2 class="contentHeader">About The Savannah Legacy Academy</h2>
             <article class="flex">
                 <figure class="min-w-[200px] mr-7">

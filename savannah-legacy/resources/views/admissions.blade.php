@@ -1,6 +1,6 @@
 <x-layout>
-    <div class="admissionContainer flex max-w-[1200px] mx-auto mt-4 mb-10">
-        <section class="left">
+    <div class="admissionContainer flex max-w-[1200px] mx-auto mt-4 mb-10 flex-wrap justify-center">
+        <section class="left max-w-2xl ">
             <h2 class="contentHeader">Savannah Legacy Academy Admissions</h2>
             <article class="flex">
                 <div class="textBox">

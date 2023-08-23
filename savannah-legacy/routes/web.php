@@ -28,6 +28,10 @@ Route::get('/admissions', function () {
     return view('admissions');
 })->name('admissions');
 
+Route::get('/accreditation', function () {
+    return view('accreditation');
+})->name('accreditation');
+
 Route::get('/error', function () {
     return view('welcome');
 });

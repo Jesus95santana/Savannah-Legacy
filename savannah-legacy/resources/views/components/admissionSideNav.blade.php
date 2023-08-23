@@ -2,7 +2,7 @@
     <div class="sideContainer">
         <nav class="sidePages">
             <li><a href={{ route('admissions') }}>ADMISSIONS</a></li>
-            <li><a href="">ACCREDITATION</a></li>
+            <li><a href={{ route('accreditation') }}>ACCREDITATION</a></li>
             <li><a href="">TUITION & FEES</a></li>
             <li><a href="">FINANCIAL AID</a></li>
             <li><a href="">TRANSPORTATION</a></li>

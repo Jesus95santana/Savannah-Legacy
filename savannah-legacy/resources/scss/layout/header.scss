@@ -14,13 +14,15 @@ header {
                     color: white;
                 }
                 .dropDown {
+                    width: max-content;
                     position: absolute;
+                    left: 0;
                     background-color: $orange;
                     list-style: none;
                     margin-top: 10px;
                     li {
                         a {
-                            padding: 10px 10px;
+                            padding: 10px;
                             text-decoration: none;
                             color: white;
                         }&:hover {

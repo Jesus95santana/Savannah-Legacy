@@ -21,7 +21,17 @@
                         <li><a href="">EMPLOYMENT</a></li>
                     </ul>
                 </li>
-                <li><a href={{route('admissions')}}>ADMISSIONS</a></li>
+                <li x-data="{open: false}" @mouseenter = "open = !open" @mouseleave = "open = !open" class="relative">
+                    <a href={{route('admissions')}}>ADMISSIONS</a>
+                    <ul x-show="open" class="dropDown">
+                        <li><a href="">ACCREDITATION</a></li>
+                        <li><a href="">TUITION & FEES</a></li>
+                        <li><a href="">FINANCIAL AID</a></li>
+                        <li><a href="">TRANSPORTATION</a></li>
+                        <li><a href="">FREQUENTLY ASKED QUESTIONS</a></li>
+                        <li><a href="">APPLY NOW/ONLINE APPLICATION</a></li>
+                    </ul>
+                </li>
                 <li><a href="">ACADEMICS</a></li>
                 <li><a href="">CAMPUS LIFE</a></li>
                 <li><a href="">SUPPORT SLA</a></li>
@@ -30,12 +40,4 @@
             </ul></nav>
         <div class="divider"></div>
     </div>
-{{--    <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false">--}}
-{{--        <button @mouseenter="isOpen = true" @mouseleave="isOpen = false">Hover Me</button>--}}
-{{--        <ul x-show="isOpen" class="dropdown">--}}
-{{--            <li><a href="#">Option 1</a></li>--}}
-{{--            <li><a href="#">Option 2</a></li>--}}
-{{--            <li><a href="#">Option 3</a></li>--}}
-{{--        </ul>--}}
-{{--    </div>--}}
 </header>

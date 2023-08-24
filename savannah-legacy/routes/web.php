@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\RoutesController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,26 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function() {
-    return view('home');
-})->name('home');
-
-Route::get('/about-the-academy', function () {
-    return view('about-the-academy');
-})->name('aboutPage');
-
-Route::get('/faculty-and-staff', function () {
-    return view('faculty-and-staff');
-})->name('faculty');
-
-Route::get('/admissions', function () {
-    return view('admissions');
-})->name('admissions');
-
-Route::get('/accreditation', function () {
-    return view('accreditation');
-})->name('accreditation');
-
-Route::get('/error', function () {
-    return view('welcome');
-});
+Route::get('/', [RoutesController::class, 'home'])->name('home');
+Route::get('/about-the-academy', [RoutesController::class, 'about'])->name('aboutPage');
+Route::get('/faculty-and-staff', [RoutesController::class, 'faculty'])->name('faculty');
+Route::get('/admissions', [RoutesController::class, 'admissions'])->name('admissions');
+Route::get('/accreditation', [RoutesController::class, 'accreditation'])->name('accreditation');
+Route::get('/error', [RoutesController::class, 'error'])->name('error');

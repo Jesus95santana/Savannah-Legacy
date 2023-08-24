@@ -24,7 +24,7 @@
                 <li x-data="{open: false}" @mouseenter = "open = !open" @mouseleave = "open = !open" class="relative">
                     <a href={{route('admissions')}}>ADMISSIONS</a>
                     <ul x-show="open" class="dropDown">
-                        <li><a href="">ACCREDITATION</a></li>
+                        <li><a href={{route('accreditation')}}>ACCREDITATION</a></li>
                         <li><a href="">TUITION & FEES</a></li>
                         <li><a href="">FINANCIAL AID</a></li>
                         <li><a href="">TRANSPORTATION</a></li>

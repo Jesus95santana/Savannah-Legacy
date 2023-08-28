@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', [RoutesController::class, 'home'])->name('home');
 Route::get('/about-the-academy', [RoutesController::class, 'about'])->name('aboutPage');
+Route::get('/transportation', [RoutesController::class, 'transportation'])->name('transportation');
 Route::get('/faculty-and-staff', [RoutesController::class, 'faculty'])->name('faculty');
 Route::get('/admissions', [RoutesController::class, 'admissions'])->name('admissions');
 Route::get('/accreditation', [RoutesController::class, 'accreditation'])->name('accreditation');

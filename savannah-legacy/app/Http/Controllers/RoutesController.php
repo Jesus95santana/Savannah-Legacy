@@ -12,6 +12,9 @@ class RoutesController extends Controller
     public function about() {
         return view('about-the-academy');
     }
+    public function transportation() {
+        return view('transportation');
+    }
     public function faculty() {
         return view('faculty-and-staff');
     }
